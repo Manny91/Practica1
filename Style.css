@@ -45,9 +45,9 @@ font-size:20px;
   .place-right {
    float: right !important;
  
-    background-color:#FFFFC9;
-     height:100%;
-    margin-left:202px;
+ background-color:#FFFFC9;
+ height:100%;
+ margin-left:202px;
 
 }
 
@@ -60,7 +60,7 @@ div.derecha
 }
 div.cuerpo
 {
-    margin-left:148px;
+    margin-left:230px;
     width:60%;
 }
 derechaimagen
@@ -76,4 +76,13 @@ derechaimagen
     top: 16px;
     left: 19px;
     margin-bottom: 0px;
+}
+
+
+div.imagenizquierda
+{
+    margin-right:0px;
+    margin-top:40px;
+  
+   
 }
