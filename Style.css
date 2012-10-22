@@ -1,12 +1,13 @@
 ﻿body
 {   
-    background-color:#FFFFC9;
+     background-color:#FFFFC9;
 }
 
 h1
 {
 color:black;
 text-align:center;
+font-size:xx-large;
 }
 p
 {
@@ -40,14 +41,39 @@ font-size:20px;
 }
 
 
-.place-right {
-  float: right !important;
-  
-  background-color:#FFFFC9;
-  height:100%;
- margin-left:202px;
-  
+
+  .place-right {
+   float: right !important;
+ 
+    background-color:#FFFFC9;
+     height:100%;
+    margin-left:202px;
+
 }
 
-
-
+div.derecha
+{
+    float: right;
+   
+    width: 35%;
+    margin-top:20px;        
+}
+div.cuerpo
+{
+    margin-left:148px;
+    width:60%;
+}
+derechaimagen
+{
+    float: right;
+    /*background-color: #C0C0C0;*/
+    width: 35%;
+    margin-top:20px;        
+}
+.place-left {
+  float: left !important;
+  margin-right: 10px;
+    top: 16px;
+    left: 19px;
+    margin-bottom: 0px;
+}
