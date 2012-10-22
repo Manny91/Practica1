@@ -1,9 +1,8 @@
-﻿
-div.izquierda
-{
-background-color:#d0e4fe;
-float:left;
+﻿body
+{   
+    background-color:#FFFFC9;
 }
+
 h1
 {
 color:black;
@@ -15,10 +14,30 @@ font-family:"Times New Roman";
 font-size:20px;
 }
 
-div.derecha
+
+.text-left
 {
-    float:right;
-    background-color:#FFFF33;
+    text-align:left;
+}
+.text-center
+{
+    text-align:center;
+}
+.place-left 
+{
+   
+  float: left !important;
+
+   
+   background-color:#FFCC99;
+    margin-right:250px;
+   
+    height: 635px;
+}
+.place-right {
+  float: right !important;
+  
+  background-color:#FFFFC9;
 }
 
 
